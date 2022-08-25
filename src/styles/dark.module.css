@@ -1,0 +1,101 @@
+@import '../index.css';
+.refreshButton {
+  height: 40px;
+  max-width: 40px;
+  min-width: 40px !important;
+  border-radius: 50% !important;
+  color: var(--darkText) !important;
+  background-color: var(--darkPrimary) !important;
+}
+.createBtn {
+  color: #fff;
+  margin: 8px;
+  margin-top: 50px;
+  background-color: var(--darkPrimary) !important;
+}
+.newCircle {
+  width: 15px !important;
+  height: 15px !important;
+  margin-left: 10px;
+  color: var(--darkPrimary) !important;
+}
+.seeAll {
+  padding-left: 72px;
+  padding-right: 16px;
+  color: var(--darkPrimary) !important;
+}
+.textField {
+  width: 45ch;
+}
+.icon {
+  color: var(--darkPrimary) !important;
+}
+.input {
+  background-color: var(--darkDiv) !important;
+  color: var(--darkText) !important;
+}
+.layout {
+  display: flex;
+  background-color: var(--darkDiv) !important;
+  color: var(--darkText) !important;
+}
+.layout p {
+  color: var(--darkText) !important;
+}
+.layout li {
+  color: var(--darkText) !important;
+}
+.toolbar {
+  padding-right: 24px;
+  justify-content: space-between;
+  background-color: var(--darkDiv) !important;
+  color: var(--darkText) !important;
+}
+.drawerPaper {
+  width: 240px;
+  position: relative !important;
+  transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms !important;
+  white-space: nowrap;
+  background-color: var(--darkDiv) !important;
+  color: var(--darkText) !important;
+}
+.MuiSvgIconRoot {
+  margin: 0;
+  margin-right: 5px;
+  margin-bottom: 0 !important;
+  color: var(--darkPrimary) !important;
+}
+.root {
+  flex-grow: 1;
+  width: 100%;
+}
+.root header {
+  background-color: var(--darkDiv) !important;
+}
+.root header span {
+  background-color: var(--darkPrimary) !important;
+  color: var(--darkText) !important;
+}
+.root header button span {
+  background-color: transparent !important;
+}
+.emailSection {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  flex-direction: column;
+}
+.emailSection:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-left-color: var(--darkPrimary) !important;
+  border-left-style: solid;
+  border-left-width: 3px;
+}
+.emailSelected {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-left-color: var(--darkPrimary) !important;
+  border-left-style: solid;
+  border-left-width: 3px;
+}

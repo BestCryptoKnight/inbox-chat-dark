@@ -1,0 +1,214 @@
+@import '../index.css';
+.appBarShift {
+  width: calc(100% - 240px) !important;
+  transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms,margin 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms !important;
+  margin-left: 240px;
+}
+.appBar {
+  z-index: 1201 !important;
+  box-shadow: none;
+  transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms,margin 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.menuButton {
+  margin-right: 36px;
+}
+.menuButtonSelected {
+  background: #00000040 !important;
+}
+.avatar {
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.headerIcons {
+  display: flex;
+  align-items: center;
+}
+.appBarSpacer {
+  min-height: 64px;
+}
+.content {
+  height: 100vh;
+  overflow: auto;
+  flex-grow: 1;
+}
+.toolbarIcon {
+  display: flex;
+  padding: 0 8px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.drawerPaper {
+  width: 240px;
+  position: relative !important;
+  transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms !important;
+  white-space: nowrap;
+}
+.drawerPaperClose {
+  width: 56px;
+  overflow-x: hidden;
+  transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+.listItem {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+  border-left-color: #3f51b5 !important;
+  border-left-style: solid !important;
+  border-left-width: 3px !important;
+}
+.badge {
+  margin-left: 20px;
+}
+.badge span {
+  background-color: lightgray;
+  color: rgba(0, 0, 0, 0.87);
+}
+.friends {
+  display: flex;
+  padding-left: 72px;
+  margin-bottom: 20px;
+  padding-right: 16px;
+  justify-content: space-between;
+}
+.friendAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.grid {
+  padding-top: 10px;
+  display: flex;
+}
+.refreshIcon {
+  color: #fff;
+}
+.leftHeader {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+.prev {
+  margin-left: 10px;
+}
+.emailHeader {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.emailHeaderLeft {
+  display: flex;
+}
+.emailAvatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.noBorder {
+  border: none;
+  padding: 0;
+}
+.emailBody img {
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  cursor: pointer;
+}
+.emailBody {
+  padding: 30px;
+  overflow: auto;
+  margin-bottom: 80px;
+}
+.imageContainer {
+  display: inline-block;
+  width: 200px;
+  margin-right: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+.imageContainer:hover .hoverContainer {
+  display: block;
+}
+.hoverContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #03a9f470;
+  width: 200px;
+  height: 200px;
+  display: none;  
+}
+.hoverContainer span {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: #fff;
+}
+.download {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #fff;
+}
+.rightSection {
+  position: relative;
+}
+.selected {
+  color: #ff9800;
+}
+.emailBodyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.emailBodyHeaderLeft {
+  display: flex;
+  align-items: center;
+}
+.emailBodyHeaderAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.subTitle {
+  margin-right: 20px;
+}
+.emailBodyHeaderRight {
+  display: flex;
+  align-items: center;
+}
+.emailBodyHeaderTime {
+  margin-left: 20px
+}
+.emailReply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  position: absolute;
+  width: -webkit-fill-available;
+  bottom: 0;
+}
+.emailReplyLeft {
+  display: flex;
+  align-items: center;
+}
+.emailReplyRight {
+  display: flex;
+  align-items: center;
+}
+.reply {
+  margin-left: 20px;
+}
+.emailContainer {
+  overflow: auto;
+  height: calc(100vh - 194px);
+}

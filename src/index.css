@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiTab-wrapper {
+  flex-direction: row !important;
+}
+.MuiTab-root {
+  flex: 1 !important;
+  min-width: unset !important;
+  min-height: unset !important;
+  padding: 10px 12px 0px 12px !important;
+}
+/* .MuiTab-wrapper .MuiSvgIcon-root {
+  margin: 0;
+  margin-right: 5px;
+}
+.MuiTab-root {
+  flex: 1;
+  min-width: unset;
+  min-height: unset;
+  padding: 10px 12px 0px 12px;
+} */
+
+:root {
+  --primary: #3f51b5;
+  --darkPrimary: #fb8c00;
+  --secondary: #5e35b1;
+  --darkSecondary: #bf360c;
+  --text: #000000;
+  --darkText: #ffffff;
+  --div: #ffffff80;
+  --darkDiv: #00000080;
+}
